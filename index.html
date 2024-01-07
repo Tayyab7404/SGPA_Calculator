@@ -4,131 +4,42 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<title>GPA Calculator</title>
 		
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="index_style.css">
+		<style>
+		</style>
 	</head>
 
 	<body>
 		<div class="container">
-			<h2>GPA Calculator</h2>
-			<div class="semester">
-				<h3>Semester 4</h3>
-				<div class="subject">
-					<label for="Computational Statistics">Computational Statistics (CS221):</label>
-					<select name="S1" id="S1" required><br>
-						<option value="" disabled selected>Select your Grade</option>
-						<option value="10">A+</option>
-						<option value="9">A</option>
-						<option value="8">B</option>
-						<option value="7">C</option>
-						<option value="6">D</option>
-						<option value="5">E</option>
-						<option value="0">F</option>
-					</select>
-					
-					<label for="Database Management Systems">Database Management Systems (CS222):</label>
-					<select name="S2" id="S2" required><br>
-						<option value="" disabled selected>Select your Grade</option>
-						<option value="10">A+</option>
-						<option value="9">A</option>
-						<option value="8">B</option>
-						<option value="7">C</option>
-						<option value="6">D</option>
-						<option value="5">E</option>
-						<option value="0">F</option>
-					</select>
-					
-					<label for="Operating Systems">Operating Systems (CS223):</label>
-					<select name="S3" id="S3" required><br>
-						<option value="" disabled selected>Select your Grade</option>
-						<option value="10">A+</option>
-						<option value="9">A</option>
-						<option value="8">B</option>
-						<option value="7">C</option>
-						<option value="6">D</option>
-						<option value="5">E</option>
-						<option value="0">F</option>
-					</select>
-					
-					<label for="Software Engineering">Software Engineering (CS224):</label>
-					<select name="S4" id="S4" required><br>
-						<option value="" disabled selected>Select your Grade</option>
-						<option value="10">A+</option>
-						<option value="9">A</option>
-						<option value="8">B</option>
-						<option value="7">C</option>
-						<option value="6">D</option>
-						<option value="5">E</option>
-						<option value="0">F</option>
-					</select>
-					
-					<label for="Web Technologies">Web Technologies (CS225):</label>
-					<select name="S5" id="S5" required><br>
-						<option value="" disabled selected>Select your Grade</option>
-						<option value="10">A+</option>
-						<option value="9">A</option>
-						<option value="8">B</option>
-						<option value="7">C</option>
-						<option value="6">D</option>
-						<option value="5">E</option>
-						<option value="0">F</option>
-					</select>
-					
-					<label for="Computational Statistics Lab">Computational Statistics Lab (CS261):</label>
-					<select name="S6" id="S6" required><br>
-						<option value="" disabled selected>Select your Grade</option>
-						<option value="10">A+</option>
-						<option value="9">A</option>
-						<option value="8">B</option>
-						<option value="7">C</option>
-						<option value="6">D</option>
-						<option value="5">E</option>
-						<option value="0">F</option>
-					</select>
-					
-					<label for="Database Management Systems Lab">Database Management Systems Lab (CS262):</label>
-					<select name="S7" id="S7" required><br>
-						<option value="" disabled selected>Select your Grade</option>
-						<option value="10">A+</option>
-						<option value="9">A</option>
-						<option value="8">B</option>
-						<option value="7">C</option>
-						<option value="6">D</option>
-						<option value="5">E</option>
-						<option value="0">F</option>
-					</select>
-					
-					<label for="Web Technologies Lab">Web Technologies Lab (CS263):</label>
-					<select name="S8" id="S8" required><br>
-						<option value="" disabled selected>Select your Grade</option>
-						<option value="10">A+</option>
-						<option value="9">A</option>
-						<option value="8">B</option>
-						<option value="7">C</option>
-						<option value="6">D</option>
-						<option value="5">E</option>
-						<option value="0">F</option>
-					</select>
-					
-					<label for="Skill Oriented Course-II">Skill Oriented Course-II  (CSSL2):</label>
-					<select name="S9" id="S9" required><br>
-						<option value="" disabled selected>Select your Grade</option>
-						<option value="10">A+</option>
-						<option value="9">A</option>
-						<option value="8">B</option>
-						<option value="7">C</option>
-						<option value="6">D</option>
-						<option value="5">E</option>
-						<option value="0">F</option>
-					</select>
+			<h1>GPA Calculator</h1>
+			<div class="years">
+				<h2>1st Year</h2>
+				<div class="button_container">
+					<button><h3>Semester 1</h3></button>
+					<button><h3>Semester 2</h3></button>
 				</div>
-
-				<button onclick="calculateSGPA()">Calculate SGPA</button>
-				<p class="result">Your SGPA is: <span id="sgpa"></span></p>
+				
+				<h2>2nd Year</h2>
+				<div class="button_container">
+					<button><h3>Semester 1</h3></button>
+					<button><h3>Semester 2</h3></button>
+				</div>
+				
+				<h2>3rd Year</h2>
+				<div class="button_container">
+					<button><h3>Semester 1</h3></button>
+					<button><h3>Semester 2</h3></button>
+				</div>
+				
+				<h2>4th Year</h2>
+				<div class="button_container">
+					<button><h3>Semester 1</h3></button>
+					<button><h3>Semester 2</h3></button>
+				</div>
 			</div>
 		</div>
-		
-		<script src="script.js"></script>
 	</body>
 </html>

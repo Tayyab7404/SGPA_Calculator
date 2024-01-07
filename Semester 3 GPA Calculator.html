@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>Semester 5 GPA Calculator</title>
+		<title>Semester 3 GPA Calculator</title>
 		
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
@@ -14,9 +14,9 @@
 		<div class="container">
 			<h1>GPA Calculator</h1>
 			<div class="semester">
-				<h2>Semester 5</h2>
+				<h2>Semester 3</h2>
 				<div class="subject">
-					<label for="S1">Automata Theory and Formal Languages (CS311)</label>
+					<label for="S1">Probability and Statistics (CS211)</label>
 					<select name="S1" id="S1" required>
 					<br></br>
 						<option value="" disabled selected>Select your Grade</option>
@@ -29,7 +29,7 @@
 						<option value="0">F</option>
 					</select>
 					
-					<label for="S2">Computer Networks (CS312)</label>
+					<label for="S2">Discrete Mathematics (CS212)</label>
 					<select name="S2" id="S2" required>
 					<br></br>
 						<option value="" disabled selected>Select your Grade</option>
@@ -42,7 +42,7 @@
 						<option value="0">F</option>
 					</select>
 					
-					<label for="S3">Design and Analysis of Algorithms (CS313)</label>
+					<label for="S3">Computer Organization (CS213)</label>
 					<select name="S3" id="S3" required>
 					<br></br>
 						<option value="" disabled selected>Select your Grade</option>
@@ -55,7 +55,7 @@
 						<option value="0">F</option>
 					</select>
 					
-					<label for="S4">Professional Elective - 1 (CS314)</label>
+					<label for="S4">Data Structures (CS214)</label>
 					<select name="S4" id="S4" required>
 					<br></br>
 						<option value="" disabled selected>Select your Grade</option>
@@ -68,7 +68,7 @@
 						<option value="0">F</option>
 					</select>
 					
-					<label for="S6">Open / Job Oriented Elective - 1 (CS315)</label>
+					<label for="S6">Object Oriented Programming (CS215)</label>
 					<select name="S5" id="S5" required>
 					<br></br>
 						<option value="" disabled selected>Select your Grade</option>
@@ -81,7 +81,7 @@
 						<option value="0">F</option>
 					</select>
 					
-					<label for="S6">Design and Analysis of Algorithms Lab (CS351)</label>
+					<label for="S6">Probability and Statistics Lab (CS251)</label>
 					<select name="S6" id="S6" required>
 					<br></br>
 						<option value="" disabled selected>Select your Grade</option>
@@ -94,7 +94,7 @@
 						<option value="0">F</option>
 					</select>
 					
-					<label for="S7">Data Analysis Lab (CS352)</label>
+					<label for="S7">Data Structures Lab (CS252)</label>
 					<select name="S7" id="S7" required>
 					<br></br>
 						<option value="" disabled selected>Select your Grade</option>
@@ -107,7 +107,7 @@
 						<option value="0">F</option>
 					</select>
 					
-					<label for="S8">Summer Internship (CS353)</label>
+					<label for="S8">Object Oriented Programming Lab (CS253)</label>
 					<select name="S8" id="S8" required>
 					<br></br>
 						<option value="" disabled selected>Select your Grade</option>
@@ -120,8 +120,21 @@
 						<option value="0">F</option>
 					</select>
 					
-					<label for="S9">Skill Oriented Course - 3 (Soft Skills) (CSSL3)</label>
+					<label for="S9">Skill Oriented Course - 1 (CSSL1)</label>
 					<select name="S9" id="S9" required>
+					<br></br>
+						<option value="" disabled selected>Select your Grade</option>
+						<option value="10">A+</option>
+						<option value="9">A</option>
+						<option value="8">B</option>
+						<option value="7">C</option>
+						<option value="6">D</option>
+						<option value="5">E</option>
+						<option value="0">F</option>
+					</select>
+
+					<label for="S10">Design Thinking and Product Innovation (CSMC3)</label>
+					<select name="S10" id="S10" required>
 					<br></br>
 						<option value="" disabled selected>Select your Grade</option>
 						<option value="10">A+</option>
@@ -134,7 +147,7 @@
 					</select>
 				</div>
 
-				<button onclick="calculateSem5GPA()">Calculate SGPA</button>
+				<button onclick="calculateSem3GPA()">Calculate SGPA</button>
 				<p class="result">Your SGPA is: <span id="sgpa"></span></p>
 			</div>
 		</div>

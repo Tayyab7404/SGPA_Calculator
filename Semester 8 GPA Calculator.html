@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Semester 8 GPA Calculator</title>
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>GPA Calculator</h1>
+			<div class="semester">
+				<h2>Semester 8</h2>
+				<div class="subject">
+					<label for="S1">Project Work (Project Work, Seminar and internship) (CS461)</label>
+					<select name="S1" id="S1" required>
+					<br></br>
+						<option value="" disabled selected>Select your Grade</option>
+						<option value="10">A+</option>
+						<option value="9">A</option>
+						<option value="8">B</option>
+						<option value="7">C</option>
+						<option value="6">D</option>
+						<option value="5">E</option>
+						<option value="0">F</option>
+					</select>
+
+				<button onclick="calculateSem8GPA()">Calculate SGPA</button>
+				<p class="result">Your SGPA is: <span id="sgpa"></span></p>
+			</div>
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+</html>
