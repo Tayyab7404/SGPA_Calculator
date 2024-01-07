@@ -217,7 +217,7 @@ function calculateSem7GPA()
 	output.innerHTML = GPA;
 }
 
-function calculateSem7GPA()
+function calculateSem8GPA()
 {
 	const sub1 = parseFloat(document.getElementById("S1").value);
 	

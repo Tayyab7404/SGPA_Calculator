@@ -30,7 +30,7 @@ h2
 h3
 {
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 }
 .years
 {
@@ -57,11 +57,16 @@ button
 	padding: 15px;
 	background-color: #007bff;
 	color: #fff;
-	border: none;
-	border-radius: 3px;
 	transition: background-color 0.3s ease;
+	border: 5px solid #f9f9f9;
+	border-radius: 15px;
 }
 button:hover 
 {
 	background-color: #0056b3;
+}
+a:link, a:visited, a:hover, a:active 
+{
+  color: white;
+  text-decoration: none;
 }
