@@ -75,3 +75,14 @@ button:hover
 	color: #007bff;
 	margin-top: 15px;
 }
+a:link, a:visited, a:hover, a:active 
+{
+  color: white;
+  text-decoration: none;
+}
+.back_button
+{
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
