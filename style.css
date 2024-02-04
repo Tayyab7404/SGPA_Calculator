@@ -5,6 +5,11 @@ body
 	margin: 0;
 	padding: 0;
 }
+a:link, a:visited, a:hover, a:active 
+{
+  color: white;
+  text-decoration: none;
+}
 .container 
 {
 	max-width: 600px;
@@ -44,11 +49,19 @@ label
 	margin-bottom: 5px;
 	color: #444;
 }
-select 
+select
 {
 	width: 100%;
 	padding: 10px;
-	border: 1px solid #ccc;
+	border: 2px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+input
+{
+	width: 96%;
+	padding: 10px;
+	border: 2px solid #ccc;
 	border-radius: 3px;
 	margin-bottom: 10px;
 }
@@ -66,23 +79,51 @@ button
 }
 button:hover 
 {
-	background-color: #0056b3;
+	background-color: #007bff;
 }
-.result 
+.SGPA_result, .CGPA_result, .Error_result
 {
 	font-size: 25px;
 	font-weight: bold;
-	color: #007bff;
+	color: rgb(70, 70, 70);
 	margin-top: 15px;
 }
-a:link, a:visited, a:hover, a:active 
+.Error_result
 {
-  color: white;
-  text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: max-content;
+	color: red;
+}
+button
+{
+	box-shadow: 5px;
 }
 .back_button
 {
 	margin: 0px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #007bff;
+}
+#goback
+{
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+button:hover
+{
+	background-color: #0056b3;
+}
+@media (max-width: 600px) 
+{
+	select
+	{
+		width: 100%;
+	}
+    input
+	{
+        width: 93%;
+    }
 }

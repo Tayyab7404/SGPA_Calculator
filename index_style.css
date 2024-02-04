@@ -60,6 +60,7 @@ button
 	transition: background-color 0.3s ease;
 	border: 5px solid #f9f9f9;
 	border-radius: 15px;
+	position: relative;
 }
 button:hover 
 {
@@ -69,4 +70,17 @@ a:link, a:visited, a:hover, a:active
 {
   color: white;
   text-decoration: none;
+}
+@media (max-width: 600px)
+{
+	h3
+	{
+		padding: 0px;
+		font-size: 12px;
+	}
+	button
+	{
+		width: 120px;
+		height: 60px;
+	}
 }
